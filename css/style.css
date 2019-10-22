@@ -1,0 +1,329 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+    max-width:1100px;
+    margin:0 auto;
+    background-color:#e7e7e9;
+}
+h1, h2, h3, h4, h5, h6{
+    padding:0;
+    margin:0;
+}
+.header{
+    background-color:#363636;
+    color:#fff;
+    text-transform:uppercase;
+    padding: 30px 10px;
+}
+.header-bg-grey{
+    text-decoration: underline;
+    text-decoration-color:#757577;
+}
+.name{
+    width:30%;
+    border:4px solid #fff;
+    margin:0 auto;
+    padding:20px;
+    font-size:18px;
+    font-weight:900;
+    text-align:center;
+    letter-spacing:3px; 
+    position:relative;
+}
+.position{
+    position:absolute;
+    background-color:#fff;
+    color:#757577;
+    font-size:10px;
+    font-weight:900;
+    padding: 4px 7px;
+    bottom:-17px;
+    left:50%;
+    transform:translateX(-50%);
+    letter-spacing:1px;
+}
+.content{
+    display:flex;
+}
+
+/*=================Profile Information===============*/
+
+.profile{
+    flex-basis:50%;
+    margin:30px  0 30px 30px;
+    padding-right:30px;
+    padding-bottom:20px;
+    border-right:1px solid #000;
+}
+.profile-photo{
+    width:170px;
+    height:150px;
+    background:#000 url('../img/profile.jpg');
+    background-position: 0px -6px;
+    background-size:cover;
+    border:2px solid #000;
+    border-width:0 0 2px 2px;
+    border-color:transparent transparent #757577 #000;
+}
+.profile-info{
+    border-bottom:1px solid #757577;
+    padding-bottom:20px;
+}
+.profile-title,.languages-title,.hobbies-title{
+    font-size:18px;
+    font-weight:900;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    margin:10px 0 10px;
+}
+.profile-text{
+    font-size:13px;
+    color:#757577;
+    margin-bottom:7px;
+}
+.profile-quote{
+    font-size: 12px;
+    font-style:italic;
+    color:#757577;
+    margin-top:10px;
+    padding:15px;
+    width:50%;
+}
+.fa-less-than, .fa-greater-than{
+    font-size:inherit;
+}
+.angle-black{
+    color:#000;
+}
+.angle-gray{
+    color:#757577;
+}
+
+/*=====================Contacts===================*/
+.contacts{
+    border-bottom:1px solid #757577;
+    padding-bottom:20px;
+    padding-top:20px;
+}
+.contacts-item{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top:13px;
+    margin-bottom:20px;
+    padding-bottom:10px;
+    border-bottom:1px dashed #757577;
+}
+.contacts-item:last-child{
+    border-bottom:none;
+}
+.contacts-text{
+    text-decoration:none;
+    font-size:13px;
+    color:#757577;
+}
+address{
+    font-style:normal;
+}
+
+/*=====================Languages===================*/
+.languages{
+    padding-top:20px;
+    padding-bottom:20px;
+    border-bottom:1px solid #757577;
+}
+.languages-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    margin-top:13px;
+    margin-bottom:20px;
+    padding-bottom:10px;
+    border-bottom:1px dashed #757577;
+}
+.languages-item:last-child{
+    border-bottom:none;
+}
+.languages-level{
+    display:flex;
+    align-items: flex-end;
+}
+.languages-level_pos{
+    width:2px;
+    height:20px;
+    border:1px solid #757577;
+    margin-right:10px;
+}
+.level-four{
+    height:16px;
+}
+.level-three{
+    height:12px;
+}
+.level-two{
+    height:8px;
+}
+.level-one{
+    height:4px;
+}
+.level-plus{
+    background-color:#757577;
+}
+
+/*=====================Hobbies=========================*/
+
+.hobbies-list{
+    display:flex;
+    justify-content:space-between;
+}
+.hobbies-item{
+    display:flex;
+    flex-direction:column;
+    flex-basis:33.33%;
+    margin-right:15px;
+    padding:5px;
+    border-right:1px dashed #757577;
+}
+.hobbies-item:last-child{
+    margin-right:0;
+    border-right:none;
+}
+.hobbies-desc{
+    display:flex;
+    align-items:center;
+}
+.hobbies-name{
+    margin-left:10px;
+}
+.hobbies-text{
+    font-size:10px;
+    color:#757577;
+}
+.hobby-icon{
+    font-size:40px;
+}
+
+/*=====================Experience====================*/
+
+.resume{
+    flex-basis:50%;
+    margin: 30px 30px 30px 0;
+    padding-left:30px;
+}
+.experience{
+    padding-bottom: 20px;
+    border-bottom:1px solid #757577;
+}
+.experience-title, .education-title{
+    font-size:18px;
+    font-weight:900;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    margin:10px 0 10px;
+}
+.experience-list{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.experience-item{
+    position:relative;
+    padding-left:40px;
+    padding-bottom:15px;
+    margin-bottom:30px;
+    border-bottom:1px dashed #757577;
+}
+.experience-item:last-child{
+    border-bottom:none;
+}
+.experience-item:before{
+    content:'';
+    position:absolute;
+    top:7px;
+    left:0;
+    width:10px;
+    height:5px;
+    background-color:#000;
+}
+.experience-date{
+    font-size:13px;
+    color:#757577;
+    margin-top:7px;
+}
+.experience-desc{
+    font-size:11px;
+    color:#757577;
+}
+/*====================Education================*/
+.education{
+    padding-top:20px;
+    padding-bottom:20px;
+    border-bottom:1px solid #757577;
+}
+.education-list{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.education-item{
+    padding-left:40px;
+    position:relative;
+}
+.education-item:before{
+    content:'';
+    position:absolute;
+    top:7px;
+    left:0;
+    width:10px;
+    height:5px;
+    background-color:#000;
+}
+.education-icon{
+    margin-right:30px;
+    margin-left:30px;
+    font-size:70px;
+    color:#b7b7b9;
+}
+.education-period{
+    font-size:13px;
+    color:#757577;
+}
+.education-university{
+    font-size:12px;
+    color:#757577;
+}
+/*===============Skills===============*/
+.skills{
+    padding-bottom:20px;
+    padding-top:20px;
+}
+.skills-title{
+    font-size:18px;
+    font-weight:900;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    margin:10px 0 10px;
+}
+.skills-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:40px;
+}
+.skills-rate{
+    display:flex;
+
+}
+.skills-rate_pos{
+    width:30px;
+    height:15px;
+    background-color:#000;
+    margin-left:15px;
+}
+.skills-minus{
+    background-color:#b7b7b9;
+}
