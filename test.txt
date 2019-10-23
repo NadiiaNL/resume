@@ -1,1 +1,2 @@
 hello
+It is a test of option -a
