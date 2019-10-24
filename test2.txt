@@ -1,2 +1,2 @@
-Chanches in work staging
+Chanches in work staging checklist
 -add hotfix branch
