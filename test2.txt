@@ -1,3 +1,4 @@
-teach branch
--checkout;
--decorate;
+Chanches in work staging
+-add hotfix branch
+-add commit only for testing
+-for lating merge
